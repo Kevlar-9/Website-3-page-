@@ -1,3 +1,9 @@
-body{
-    background-color: azure;
+body {
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default paddings */
+    height: 100vh; /* Full height of the viewport */
+    background-image: url("images/design2.jpg"); /* Path to your image */
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
 }

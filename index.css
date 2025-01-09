@@ -2,11 +2,21 @@ body {
     margin: 0; /* Remove default margins */
     padding: 0; /* Remove default paddings */
     height: 100vh; /* Full height of the viewport */
-    background-image: url("images/Kilometer.jpg"); /* Path to your image */
+    background-image: url("images/design1.jpg"); /* Path to your image */
     background-size: cover; /* Make the image cover the entire background */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
 }
 h1{
-    color: black;
+    color: rgb(16, 3, 104);
+    text-align: center;
+
 }
+.gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
